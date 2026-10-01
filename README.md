@@ -1,4 +1,4 @@
-# JavaScript – Opgave 3: Byg din interaktive zoo
+# JavaScript – Byg din interaktive zoo
 
 ## Selvstændig opgave med ChatGPT som sparringspartner
 
@@ -137,14 +137,14 @@ js-interactive-zoo-starter/
 
 ### Prompting-niveau 3: Sparringspartneren
 
-> *"Udfordr mig, så jeg forstår det."*
+> _"Udfordr mig, så jeg forstår det."_
 
-| Du | ChatGPT |
-|---|---|
-| Skriver, tester og forbedrer selv koden | Skriver **ikke** koden for dig |
-| Viser først din egen plan, kode eller forklaring | Udfordrer dine valg og din forståelse |
-| Forklarer og begrunder dine valg | Stiller **ét spørgsmål ad gangen** |
-| Svarer selv, før du får feedback | Venter på dit svar og giver derefter konkret feedback |
+| Du                                               | ChatGPT                                               |
+| ------------------------------------------------ | ----------------------------------------------------- |
+| Skriver, tester og forbedrer selv koden          | Skriver **ikke** koden for dig                        |
+| Viser først din egen plan, kode eller forklaring | Udfordrer dine valg og din forståelse                 |
+| Forklarer og begrunder dine valg                 | Stiller **ét spørgsmål ad gangen**                    |
+| Svarer selv, før du får feedback                 | Venter på dit svar og giver derefter konkret feedback |
 
 Målet er ikke at blive hurtigere færdig, men at **forstå** den kode, du skriver.
 
@@ -189,13 +189,13 @@ Hvert STEP i `js/script.js` har et eller flere **💬 Sparring**-punkter. De for
 
 En god besked viser altid **dit eget forsøg** – også hvis det er ufærdigt eller forkert.
 
-| ✅ Sådan | ❌ Ikke sådan |
-|---|---|
-| "Min plan til STEP 3 er … Hvad tænker du om den?" | "Hvordan laver jeg STEP 3?" |
-| "Her er mit array. Jeg har skrevet age uden anførselstegn, fordi …" | "Skriv arrayet for mig." |
-| "Jeg får fejlen *animalInfo is not defined*. Jeg tror, det skyldes … Har jeg ret?" | "Ret min fejl." |
-| "Jeg forstår ikke helt, hvad `${ }` gør. Jeg tror, det betyder … Stil mig et spørgsmål, der kan hjælpe mig." | "Forklar template literals." |
-| "Jeg er uenig i din feedback, fordi …" | *(Kopiere ChatGPT's svar uden at tænke over det)* |
+| ✅ Sådan                                                                                                     | ❌ Ikke sådan                                     |
+| ------------------------------------------------------------------------------------------------------------ | ------------------------------------------------- |
+| "Min plan til STEP 3 er … Hvad tænker du om den?"                                                            | "Hvordan laver jeg STEP 3?"                       |
+| "Her er mit array. Jeg har skrevet age uden anførselstegn, fordi …"                                          | "Skriv arrayet for mig."                          |
+| "Jeg får fejlen _animalInfo is not defined_. Jeg tror, det skyldes … Har jeg ret?"                           | "Ret min fejl."                                   |
+| "Jeg forstår ikke helt, hvad `${ }` gør. Jeg tror, det betyder … Stil mig et spørgsmål, der kan hjælpe mig." | "Forklar template literals."                      |
+| "Jeg er uenig i din feedback, fordi …"                                                                       | _(Kopiere ChatGPT's svar uden at tænke over det)_ |
 
 ### 4.4 Når du får en fejl i Console
 
@@ -227,7 +227,7 @@ der hjælper mig videre.
 ChatGPT kan tage fejl. Du er den, der bestemmer over din kode.
 
 - **Test** altid feedbacken i browseren og Console, før du stoler på den.
-- **Spørg dig selv:** Forstår jeg, *hvorfor* ændringen er bedre?
+- **Spørg dig selv:** Forstår jeg, _hvorfor_ ændringen er bedre?
 - **Sig fra**, hvis du er uenig, og forklar hvorfor.
 
 ---
@@ -236,13 +236,13 @@ ChatGPT kan tage fejl. Du er den, der bestemmer over din kode.
 
 Åbn `js/script.js`, og følg kommentarerne fra **STEP 0** til **STEP 4**:
 
-| STEP | Indhold |
-|---|---|
+| STEP   | Indhold                                                      |
+| ------ | ------------------------------------------------------------ |
 | STEP 0 | Forbind `index.html` med `js/script.js`, og skriv use strict |
-| STEP 1 | Lav et array med objekter med dyrenes data |
-| STEP 2 | Hent infoboksen fra HTML'en |
-| STEP 3 | Skriv funktionen, der viser infoboksen |
-| STEP 4 | Vis dyrets oplysninger, når man klikker på det |
+| STEP 1 | Lav et array med objekter med dyrenes data                   |
+| STEP 2 | Hent infoboksen fra HTML'en                                  |
+| STEP 3 | Skriv funktionen, der viser infoboksen                       |
+| STEP 4 | Vis dyrets oplysninger, når man klikker på det               |
 
 Du skal kun skrive kode, hvor der står **✏️**. Den øvrige kode er skrevet for dig.
 
